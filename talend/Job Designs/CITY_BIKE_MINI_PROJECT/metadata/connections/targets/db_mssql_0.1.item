@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZC7sgN9fEfGY_PB4Hi63dQ" name="db_mssql" id="__X__YN9eEfGY_PB4Hi63dQ" label="db_mssql" dataPackage="_ZV0MQN9fEfGY_PB4Hi63dQ" ContextMode="true" ContextId="_X9ThMN9fEfGY_PB4Hi63dQ" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://127.0.0.1:1433/CityBikeDW;" dbVersionString="JTDS" Port="context.db_mssql_Port" Username="context.db_mssql_Login" Password="context.db_mssql_Password" ServerName="context.db_mssql_Server" DatasourceName="" FileFieldName="" SID="context.db_mssql_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.db_mssql_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.db_mssql_Schema">
+    <taggedValue xmi:id="_ZC7sgd9fEfGY_PB4Hi63dQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_ZDbbwN9fEfGY_PB4Hi63dQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ZDbbwd9fEfGY_PB4Hi63dQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_ZDbbwt9fEfGY_PB4Hi63dQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ZDbbw99fEfGY_PB4Hi63dQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ZDbbxN9fEfGY_PB4Hi63dQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_ZDbbxd9fEfGY_PB4Hi63dQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_ZDbbxt9fEfGY_PB4Hi63dQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_ZJBGYN9fEfGY_PB4Hi63dQ" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_ZJBGYd9fEfGY_PB4Hi63dQ" tag="DB ProductVersion" value="17.00.1000"/>
+    <taggedValue xmi:id="_ZJBGYt9fEfGY_PB4Hi63dQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_ZC7sgt9fEfGY_PB4Hi63dQ" key="CONN_PARA_KEY_USERNAME" value="context.db_mssql_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_ZV0MQN9fEfGY_PB4Hi63dQ" name="CityBikeDW" dataManager="_ZC7sgN9fEfGY_PB4Hi63dQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_ZV0MQd9fEfGY_PB4Hi63dQ" name="stg"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

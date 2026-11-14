@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_lR0LkN9cEfGY_PB4Hi63dQ" label="City_Bike_Mini_Project" description="" language="java" technicalLabel="CITY_BIKE_MINI_PROJECT" local="true" author="_lR0Lkd9cEfGY_PB4Hi63dQ" productVersion="Talend Open Studio for Data Integration-8.0.1.20211109_1610" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_lSCOAN9cEfGY_PB4Hi63dQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_lR0Lkd9cEfGY_PB4Hi63dQ" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

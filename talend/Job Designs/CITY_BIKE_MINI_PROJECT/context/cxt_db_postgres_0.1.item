@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_RQcSgN9dEfGY_PB4Hi63dQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_RQcSgd9dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Password" prompt="db_postgres_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:QD6poh+dkovZFHwKxVQYtiKnbFQApKkK8bNSm+tcyxM="/>
+  <contextParameter xmi:id="_RQcSgt9dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Schema" prompt="db_postgres_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="ops"/>
+  <contextParameter xmi:id="_RQcSg99dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Server" prompt="db_postgres_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="127.0.0.1"/>
+  <contextParameter xmi:id="_RQcShN9dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Port" prompt="db_postgres_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_RQcShd9dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Login" prompt="db_postgres_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_RQcSht9dEfGY_PB4Hi63dQ" comment="" name="db_postgres_Database" prompt="db_postgres_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="citybike_src"/>
+  <contextParameter xmi:id="_RQcSh99dEfGY_PB4Hi63dQ" comment="" name="db_postgres_AdditionalParams" prompt="db_postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>

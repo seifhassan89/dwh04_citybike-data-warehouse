@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_X9pfcN9fEfGY_PB4Hi63dQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_X9pfcd9fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Password" prompt="db_mssql_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:5rhTmUzGc0MpgMOqVdUUeTfOZLvGF0uH4448jY+HJq0="/>
+  <contextParameter xmi:id="_X9pfct9fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Schema" prompt="db_mssql_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_X9pfc99fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Server" prompt="db_mssql_Server?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="127.0.0.1"/>
+  <contextParameter xmi:id="_X9pfdN9fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Port" prompt="db_mssql_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_X9pfdd9fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Login" prompt="db_mssql_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+  <contextParameter xmi:id="_X9pfdt9fEfGY_PB4Hi63dQ" comment="" name="db_mssql_Database" prompt="db_mssql_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CityBikeDW"/>
+  <contextParameter xmi:id="_X9pfd99fEfGY_PB4Hi63dQ" comment="" name="db_mssql_AdditionalParams" prompt="db_mssql_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

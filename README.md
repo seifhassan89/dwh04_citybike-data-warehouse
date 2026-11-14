@@ -2,6 +2,8 @@
 
 > **Portfolio case study** | PostgreSQL · Talend Studio 8 · Microsoft SQL Server · Dimensional Modeling · SQL Analytics
 
+📚 **[Full project walkthrough on Notion](https://app.notion.com/p/4181c4bc255080619a63cf6d098eefac)** · 🧪 **[Validation evidence](docs/EVIDENCE_AND_VERIFICATION.md)** · 🗺️ **[Editable architecture diagram](assets/diagrams/architecture_editable.drawio)**
+
 ![Architecture — illustrative](assets/visuals/architecture.png)
 
 ## 👋 The business story
@@ -37,9 +39,7 @@ CityBike's operational database records stations, bikes, members and trips. Mana
 
 ## 🧮 Observed runtime baseline (SSMS, November 14, 2026)
 
-The project owner ran a read-only SQL Server row-count query and shared the results.
-This implementation includes additional custom test cases, so its actual figures
-are documented separately from the original assignment targets.
+The project owner ran a read-only SQL Server row-count query and shared its SSMS results screenshot. The implementation includes custom cases, so observed values are documented separately from the assignment benchmarks.
 
 | Table | Observed rows |
 |---|---:|
@@ -76,20 +76,22 @@ See [`sql/analytics/business_questions.sql`](sql/analytics/business_questions.sq
 1. Run `sql/source/citybike_source_pg.sql` in a fresh PostgreSQL `citybike_src` database.
 2. Run `sql/setup/citybike_dw_skeleton_mssql.sql` in SQL Server and optionally `sql/setup/dim_date_time_helper_mssql.sql`.
 3. Import `talend/CityBike_Talend_Sanitized_Job_Designs.zip` (derived from the actual six uploaded Talend jobs). Saved connection and context values have been cleared; configure your own local connections before use and review the sanitized archive before public release.
-4. Configure connection contexts using secrets outside version control. Run the master ETL and validate using `sql/validation/acceptance_checks.sql`.
+4. Configure connection contexts using secrets outside version control. Run the master ETL and inspect the results using `sql/validation/acceptance_checks.sql`. **Review the script’s original-brief expected values before treating PASS/FAIL output as authoritative for custom cases.**
 5. Apply `sql/source/citybike_changes_pg.sql` **once on the clean baseline**; the membership-update script is not idempotent. Rerun ETL, and revalidate historical relationships.
 
 ## 🔍 Evidence and limitations
 
-- Original Talend job-design screenshots extracted from the user-provided Talend Studio export are included below. These show the **design canvas**, not proof of successful execution.
+- Original Talend job-design screenshots extracted from the user-provided Talend Studio export are included below. Additional actual Studio screenshots are in [`assets/talend-user-screenshots/`](assets/talend-user-screenshots/), with an annotated [`Evidence Book (PDF)`](docs/CityBike_Talend_Evidence_Book.pdf). These show the **design canvas**, not proof of successful execution.
 - Explanatory architecture, star-schema, SCD2 and quality-gate diagrams are representative illustrations.
 - `docs/EVIDENCE_AND_VERIFICATION.md` documents what was independently verified from source artifacts and what still requires a real database.
-- No live PostgreSQL, SQL Server or Talend execution took place in the portfolio-generation environment.
+- The portfolio-generation environment did not independently run PostgreSQL, SQL Server or Talend. The owner separately executed and supplied SSMS row-count results, documented above.
 - Source/target count targets and analytics benchmarks are explicitly attributed to the brief.
 - Files provided by the course are identified as starter material, not represented as independently authored student code.
-- Publication still requires reviewing licensing and the sanitized Talend archive. Runtime results are not shown as actual without a SQL Server run.
+- This GitHub repository is published. Redistribution rights for course assets and the final sanitized Talend archive still require independent review. The observed SSMS row counts above are actual reported outputs; other runtime claims require separate evidence.
 
 ## 🗺️ Explore
+
+- **[Complete project documentation on Notion](https://app.notion.com/p/4181c4bc255080619a63cf6d098eefac)** — the 11-phase learning journey, diagrams, design decisions and evidence status. Notion and GitHub are cross-linked manually; there is no automatic synchronization.
 
 - [`docs/`](docs/) — requirements, mapping, traceability, operations and testing notes.
 - [`sql/`](sql/) — assignment seed/setup, validation and analytics scripts.
@@ -111,5 +113,5 @@ See the individual full-size images in [`assets/talend-screenshots/`](assets/tal
 - Original Talend export preserved privately; a sanitized derivative is included for review.
 - Saved context values, literal host/user/db/password connection parameters and connection metadata values were cleared before publication packaging.
 - Structural XML verification passed on the sanitized archive. This is **not a successful Talend import/compile check**.
-- The original course brief's benchmark numbers are labelled expected; no database connection was available here to run SQL Server acceptance checks.
+- The original course brief’s benchmark numbers are labelled expected. Observed row counts came from the owner’s SSMS screenshot; other SQL acceptance checks were not executed in the portfolio-generation environment.
 - [Evidence audit](docs/EVIDENCE_AND_VERIFICATION.md) · [Machine-readable audit](docs/artifact_verification.json).
