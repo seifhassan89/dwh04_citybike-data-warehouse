@@ -1,0 +1,10 @@
+CityBike GitHub upload package
+
+1. Extract the ZIP.
+2. Open the citybike-data-warehouse folder.
+3. Review README.md and docs/credits_and_limitations.md.
+4. Do not publish without reviewing any Talend connection metadata or rights to course material.
+5. To upload via GitHub's web interface, upload the CONTENTS of citybike-data-warehouse,
+   not the .zip itself. Start with README.md, assets, docs, sql, presentation, talend.
+6. Current observed SQL Server row counts are documented in README.md.
+7. No runtime PASS claims are made beyond the actual evidence.

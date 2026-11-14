@@ -1,0 +1,18 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.jks
+*.keystore
+secrets/
+credentials/
+*.log
+*.bak
+*.tmp
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db

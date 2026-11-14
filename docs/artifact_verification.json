@@ -1,0 +1,9 @@
+{
+  "original_talend_jobs": 6,
+  "original_native_screenshot_pngs": 6,
+  "files_in_sanitized_export": 26,
+  "connection_or_context_values_cleared": 253,
+  "sanitized_export_sha256": "293c34c541b9af36f60842aaf34e3447110b28ae238280d34fbae18d44a3534f",
+  "run_environment": "No PostgreSQL, SQL Server, or Talend runtime connected in this session",
+  "evidence_classification": "Source-artifact verification only, not a live ETL run"
+}
